@@ -36,24 +36,25 @@ The project follows a **complete ML lifecycle**:
 CUSTOMER-CHURN-PREDICTOR/
 │
 ├── data/
-│ ├── raw/ # Original dataset
-│ └── processed/ # Cleaned & transformed data
+│   ├── raw/                    # Original dataset
+│   └── processed/              # Cleaned & transformed data
 │
 ├── notebooks/
-│ ├── EDA.ipynb # Exploratory Data Analysis
-│ └── Modeling.ipynb # Model training & evaluation
+│   ├── EDA.ipynb               # Exploratory Data Analysis
+│   └── Modeling.ipynb          # Model training & evaluation
 │
 ├── models/
-│ └── churn_model.pkl # Trained ML model
+│   └── churn_model.pkl         # Trained ML model
 │
 ├── src/
-│ ├── data_processing.py # Data cleaning & preprocessing
-│ ├── feature_engineering.py
-│ ├── model_training.py
-│ └── utils.py
+│   ├── data_processing.py      # Data cleaning & preprocessing
+│   ├── feature_engineering.py  # Feature creation & transformation
+│   ├── model_training.py       # Model training & evaluation
+│   └── utils.py                # Helper functions
 │
-├── requirements.txt
-└── README.md
+├── requirements.txt            # Project dependencies
+└── README.md                   # Project documentation
+
 
 
 
@@ -143,6 +144,7 @@ The trained model is saved using `pickle` so it can be:
 1. Clone the repository
 ```bash
 git clone https://github.com/Arshpreet-Singh-2005/CUSTOMER-CHURN-PREDICTOR.git
+
 
 
 
