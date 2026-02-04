@@ -1,5 +1,4 @@
 #  Customer Churn Prediction System
-```text
 
 ##  Project Overview
 Customer churn is one of the biggest challenges faced by subscription-based and service-driven businesses.  
@@ -34,6 +33,7 @@ The project follows a **complete ML lifecycle**:
 ---
 
 ## Project Structure
+```text
 CUSTOMER-CHURN-PREDICTOR/
 ├── data/
 │   ├── raw/                # Original dataset
@@ -50,8 +50,7 @@ CUSTOMER-CHURN-PREDICTOR/
 │   └── utils.py            # Helper functions
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
-
-
+```
 
 ---
 
@@ -144,6 +143,7 @@ pip install -r requirements.txt
 
 3. Run the processing or training script
 python src/model_training.py
+
 
 
 
